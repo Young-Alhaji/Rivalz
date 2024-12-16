@@ -106,7 +106,7 @@ const Subscribe = () => {
             )} <br />
             
 
-          <button style={{width: '300px',fontWeight: 'bold',backgroundColor:'rgb(24,192,104)',border:'none'}} onClick={subscribe}>Subscribe</button> <br /><br />
+          <button style={{width: '300px',fontWeight: 'bold',backgroundColor:'rgb(24,192,104)',border:'none',color:'white'}} onClick={subscribe}>Subscribe</button> <br /><br />
           
 
         </div>
