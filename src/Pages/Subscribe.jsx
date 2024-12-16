@@ -88,8 +88,8 @@ const Subscribe = () => {
         </div> <br />
        
         <div>
-        <i style={{fontSize: '120%'}} className="fa-solid fa-envelope"></i>  <input className={styles.input}
-          type="text"
+        <i style={{fontSize: '120%'}} className="fa-solid fa-envelope"></i>  <input className={styles.input} style={{border:'1px solid rgb(24,192,104)'}}
+          type="text" 
           placeholder='Email' id='email' name='email' value={email}
           onChange={(e)=>setemail(e.target.value)}/> <br /> <br />
             <div style={{color:'red'}}>{message}</div>
