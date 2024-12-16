@@ -18,8 +18,10 @@
 }
 .baseTitle{
     color: rgb(24,192,104);
-    font-size: 200%;
-    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 150%;
+    font-family: "Dela Gothic One", sans-serif;
+    letter-spacing: 5px;
+
 }
 .newsletterBtn{
     background-color: rgb(24,192,104);

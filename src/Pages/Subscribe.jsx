@@ -84,7 +84,7 @@ const Subscribe = () => {
       <section className='boldpoppins'>
       <br /><br /><br /><br /><br /><br /><br /><br />
         <div>
-    <img src="logo.png" width="50" height="50" style={{borderRadius:'1000px'}} alt=""/>
+    <img src="logo.jpg" width="50" height="50" style={{borderRadius:'1000px'}} alt=""/>
         </div> <br />
        
         <div>
@@ -106,7 +106,7 @@ const Subscribe = () => {
             )} <br />
             
 
-          <button className='btn btn-primary' style={{width: '300px',fontWeight: 'bold'}} onClick={subscribe}>Subscribe</button> <br /><br />
+          <button style={{width: '300px',fontWeight: 'bold',backgroundColor:'rgb(24,192,104)',border:'none'}} onClick={subscribe}>Subscribe</button> <br /><br />
           
 
         </div>

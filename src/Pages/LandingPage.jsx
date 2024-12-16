@@ -81,7 +81,7 @@ const LandingPage = () => {
 
       <div class="col-9 mx-auto shadow">
         <div>
-        <textarea name="question" id="question" value={question} placeholder="Ask AI anything about Base...." className="form-control my-2"style={{height:'90px',backgroundColor:'rgb(13,13,13)', border:'2px solid rgb(24,192,104)', borderRadius:'15px',color:'white'}} onChange={(e)=>setquestion(e.target.value)}>
+        <textarea name="question" id="question" value={question} placeholder="Ask AI anything about Rivalz...." className="form-control my-2"style={{height:'90px',backgroundColor:'rgb(13,13,13)', border:'2px solid rgb(24,192,104)', borderRadius:'15px',color:'white'}} onChange={(e)=>setquestion(e.target.value)}>
         </textarea>
         {loading ? (
                 <div class="d-flex justify-content-center">
