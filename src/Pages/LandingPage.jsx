@@ -27,7 +27,7 @@ const LandingPage = () => {
      setloading(true);
      seterrorMessage('');
 
-    const url = 'https://base-network-agent.onrender.com/user/invoke';
+    const url = 'https://rivalz-multiagent.onrender.com/chat?message';
     const payload = { message: question };
   
     try {
@@ -48,10 +48,9 @@ const LandingPage = () => {
         throw new Error(`Request failed with status ${response.status}`);
       }    
         const data = await response.json(); // Parse the JSON response
-        console.log(data.content)
-          setreply(data.content)
-          console.log(reply)  
-      console.log('Response:', data);
+        console.log(data.response)
+          setreply(data.response)  
+      console.log( data);
     } catch (error) {
       console.error('Fetch error:', error.message);
     }
